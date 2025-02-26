@@ -1,0 +1,120 @@
+.today-sales {
+  background: #FFFFFF;
+  border: 1px solid #F8F9FA;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title-group h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #05004E;
+  margin: 0;
+}
+
+.title-group p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #737791;
+  margin: 4px 0 0 0;
+}
+
+.export-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: transparent;
+  border: 1px solid #C3D3E2;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.export-btn:hover {
+  background: #F8F9FA;
+}
+
+.export-btn img {
+  width: 16px;
+  height: 16px;
+}
+
+.export-btn span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  color: #0F3659;
+}
+
+.metrics-container {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.metric-card {
+  min-height: 200px;
+  flex: 1 1 calc(25% - 15px);
+  padding: 15px;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.metric-card.pink {
+  background: #FFE2E5;
+}
+
+.metric-card.yellow {
+  background: #FFF4DE;
+}
+
+.metric-card.green {
+  background: #DCFCE7;
+}
+
+.metric-card.purple {
+  background: #F3E8FF;
+}
+
+.metric-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.metric-card h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #151D48;
+  margin: 0 0 5px 0;
+}
+
+.metric-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #425166;
+  margin: 0 0 5px 0;
+}
+
+.metric-change {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #4079ED;
+}
+
+@media (max-width: 900px) {
+  .metric-card {
+    flex: 1 1 100%;
+  }
+}

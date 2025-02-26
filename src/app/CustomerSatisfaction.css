@@ -1,0 +1,99 @@
+.customer-satisfaction {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #05004E;
+  margin: 0 0 20px 0;
+}
+
+.chart-container {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.chart {
+  width: 100%;
+  height: 100%;
+}
+
+.chart-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.chart-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-image {
+  width: 100%;
+  height: auto;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #F8F9FA;
+  margin: 20px 0;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.indicator {
+  width: 19px;
+  height: 9px;
+  margin-top: 11px;
+}
+
+.stat-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #96A5B8;
+}
+
+.stat-value {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #222B45;
+}
+
+.separator {
+  width: 1px;
+  height: 24px;
+  background-color: #BDC9D3;
+}

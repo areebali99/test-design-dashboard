@@ -1,0 +1,173 @@
+.visitor-insights {
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.visitor-insights  img{
+  height: 20rem;
+  width: 24.5rem;
+  margin: -20px;
+}
+.card-header h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #05004E;
+  margin: 0 0 20px 0;
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.y-axis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 10px;
+  width: 30px;
+}
+
+.y-axis span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  color: #7B91B0;
+  opacity: 0.7;
+  text-align: right;
+}
+
+.chart-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.chart-area {
+  flex: 1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.chart-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.highlight-point {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.point {
+  width: 10px;
+  height: 10px;
+  background: #F64E60;
+  border-radius: 50%;
+}
+
+.line {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 1px;
+  height: 169px;
+  background: #F64E60;
+}
+
+.x-axis {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.x-axis span {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 10px;
+  color: #464E5F;
+  text-align: center;
+}
+
+.legend {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.color-box {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+
+.color-box.loyal {
+  background: #A700FF;
+}
+
+.color-box.new {
+  background: #EF4444;
+}
+
+.color-box.unique {
+  background: #3CD856;
+}
+
+.legend-item span {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #464E5F;
+}
+
+@media (max-width: 600px) {
+  .visitor-insights {
+    padding: 16px;
+    height: auto;
+  }
+
+  .chart-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .y-axis {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .chart-content {
+    width: 100%;
+  }
+
+  .x-axis {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .legend {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

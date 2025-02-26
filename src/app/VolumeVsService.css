@@ -1,0 +1,145 @@
+.volume-vs-service {
+  height: 100%;
+  background: #FFFFFF;
+  border: 1px solid #EDF2F6;
+  border-radius: 26px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #05004E;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.chart {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 20px 0;
+}
+
+.bar-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.bar {
+  width: 12px;
+  transition: height 0.3s ease;
+}
+
+.volume-bar {
+ 
+  background: #0095FF;
+  border-radius: 2px;
+}
+.volume-bar, #A{
+  height: 30px;
+}
+.volume-bar, #B{
+  height: 50px;
+}
+.volume-bar, #C{
+  height: 50px;
+}
+.volume-bar, #D{
+  height: 50px;
+}
+.volume-bar, #E{
+  height: 30px;
+}
+.volume-bar, #F{
+  height: 55px;
+}
+.volume-bar, #G{
+  height: 30px;
+}
+.volume-bar, #H{
+  height: 45px;
+}
+.volume-bar, #I{
+  height: 70px;
+}
+.volume-bar, #J{
+  height: 40px;
+}
+.volume-bar, #K{
+  height: 25px;
+}
+.volume-bar, #L{
+  height: 32px;
+}
+.service-bar {
+  height: 80px;
+  background: #00E096;
+  border-radius: 2px;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+  margin-top: auto;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.legend-color {
+  width: 10px;
+  height: 10px;
+  border-radius: 6px;
+}
+
+.legend-color.volume {
+  background: #0095FF;
+}
+
+.legend-color.service {
+  background: #00E096;
+}
+
+.legend-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.legend-label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #96A5B8;
+}
+
+.legend-value {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222B45;
+}
+
+.legend-divider {
+  width: 1px;
+  height: 24px;
+  background: #BDC9D3;
+}
+

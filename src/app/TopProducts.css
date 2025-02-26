@@ -1,0 +1,127 @@
+.top-products {
+  background: #FFFFFF;
+  border: 1px solid #F8F9FA;
+  border-radius: 20px;
+  padding: 24px;
+  min-width: 645px;
+  min-height: 351px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #05004E;
+  margin-bottom: 18px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  border-bottom: 1px solid #F8F9FA;
+  padding-bottom: 16px;
+}
+
+.header-item {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  color: #96A5B8;
+}
+
+.header-item:nth-child(1) {
+  width: 40px;
+}
+
+.header-item:nth-child(2) {
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+.header-item:nth-child(3) {
+  width: 180px;
+  text-align: left;
+}
+
+.header-item:nth-child(4) {
+  width: 80px;
+  text-align: right;
+}
+
+.products-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-row {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  height: 24px;
+}
+
+.product-id {
+  width: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444A6D;
+}
+
+.product-name {
+  flex-grow: 1;
+  margin-left: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444A6D;
+}
+
+.popularity-bar {
+  width: 180px;
+  height: 4px;
+  background: #F8F9FA;
+  border-radius: 2px;
+  margin: 0 20px;
+}
+
+.popularity-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.sales-badge {
+  width: 50px;
+  height: 24px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+@media (max-width: 768px) {
+  .top-products {
+    min-width: 100%;
+    padding: 16px;
+  }
+
+  .header-item:nth-child(3),
+  .header-item:nth-child(4) {
+    width: auto;
+  }
+
+  .popularity-bar {
+    width: 100px;
+    margin: 0 10px;
+  }
+}
+

@@ -1,0 +1,118 @@
+.sales-card {
+  width: 100%;
+  max-width: 371px;
+  min-height: 351px;
+  padding: 25px 19px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.card-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #05004e;
+  margin-bottom: 20px;
+}
+
+.bar-chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 157px;
+  margin-bottom: 30px;
+}
+
+.bar-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 36px;
+}
+
+.bars {
+  width: 100%;
+  height: 133px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar {
+  width: 45%;
+  border-radius: 4px;
+  transition: height 0.3s ease;
+}
+
+.bar.reality {
+  background-color: #27ae60;
+}
+
+.bar.target {
+  background-color: #ffa412;
+}
+
+.month-label {
+  margin-top: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #7b91b0;
+}
+
+.sales-details {
+  margin-top: 20px;
+}
+
+.sales-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sales-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.sales-text h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #151d48;
+  margin: 0;
+}
+
+.sales-text p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #737791;
+  margin: 2px 0 0 0;
+}
+
+.sales-value {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sales-value.reality {
+  color: #27ae60;
+}
+
+.sales-value.target {
+  color: #ffa412;
+}
+
